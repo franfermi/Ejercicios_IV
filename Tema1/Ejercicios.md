@@ -51,3 +51,30 @@ El modelo del procesador es: AMD Quad-Core E2-3800
 ![curl](https://github.com/franfermi/Ejercicios_IV/blob/master/Tema1/Capturas/flags.png)
 
 La misma salida se repite 4 veces porque se muestra una vez por cada núcleo.
+
+En una máquina virtual no muestra nada.
+
+### Ejercicio 4
+
+### 4.1: Comprobar si el núcleo instalado en tu ordenador contiene este módulo del kernel usando la orden kvm-ok.
+
+Si no tenemos instalado kvm_ok como es mi caso, tenemos que instalar el siguiente programa:
+
+>> sudo apt-get install cpu-checker
+
+El resultado es el siguiente:
+
+>> HINT: Enter your BIOS setup and enable Virtualization Technology (VT), and then hard poweroff/poweron your system
+>> KVM acceleration can NOT be used
+
+Me dice que KVM no está disponible porque no se encuentra habilitado en la BIOS.
+
+### 4.2: Instalar un hipervisor para gestionar máquinas virtuales, que más adelante se podrá usar en pruebas y ejercicios.
+
+He instalado VMware Player ya que Virtualbox no me funciona. Lo descargamos de la página oficial y para instalarlo:
+
+>> sudo sh VMware-Player-12.5.7-5813279.x86_64.bundle
+
+### Ejercicio 5: Darse de alta en servicios de nube usando ofertas gratuitas o cupones que pueda proporcionar el profesor.
+
+### Ejercicio 6: Darse de alta en una web que permita hacer pruebas con alguno de los sistemas de gestión de nube anteriores.
