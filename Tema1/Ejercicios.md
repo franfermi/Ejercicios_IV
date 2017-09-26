@@ -91,3 +91,7 @@ suscripción activada.
 ![curl](https://github.com/franfermi/Ejercicios_IV/blob/master/Tema1/Capturas/cuenta_suscripci%C3%B3n_azure.png)
 
 ### Ejercicio 6: Darse de alta en una web que permita hacer pruebas con alguno de los sistemas de gestión de nube anteriores.
+
+A través del correo de confirmación del ejercicio anterior, pordemos acceder al portal de Azure, en el nos encontraremos con los servicios, herramientas, etc, que se proporcionan. En el apartado, Herramientas para desarrolladores tenemos DevTest Labs que es un servicio que ayuda a los desarrolladores y evaluadores a crear rápidamente entornos de Azure al tiempo que se optimizan los recursos y se controlan los costos. 
+
+
