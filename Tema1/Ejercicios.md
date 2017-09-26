@@ -5,8 +5,8 @@
 ### Ejercicio 1: Consultar en el catálogo de alguna tienda de informática el precio de un ordenador tipo servidor y calcular su coste de amortización a cuatro y siete años. Consultar este artículo en Infoautónomos sobre el tema.
 
 El ordenador elegido para este ejercicio es un **Servidor HPE ProLiant ML30 Gen9**, podemos encontrar información sobre el en
-[Hewlett Packard Enterprise](https://www.hpe.com/es/es/product-catalog/servers/proliant-servers/pip.hpe-proliant-ml30-gen9-server.1008556812.html), 
-con un coste en [Amazon](https://www.amazon.es/Hewlett-Packard-Enterprise-ProLiant-E3-1220V5/dp/B01C6Z1T1A/ref=pd_lpo_sbs_147_t_0?_encoding=UTF8&psc=1&refRID=9D5J8FVDPG4M836XS2RN) 
+[Hewlett Packard Enterprise](https://www.hpe.com/es/es/product-catalog/servers/proliant-servers/pip.hpe-proliant-ml30-gen9-server.1008556812.html),
+con un coste en [Amazon](https://www.amazon.es/Hewlett-Packard-Enterprise-ProLiant-E3-1220V5/dp/B01C6Z1T1A/ref=pd_lpo_sbs_147_t_0?_encoding=UTF8&psc=1&refRID=9D5J8FVDPG4M836XS2RN)
 de 869,88€ con IVA incluido y 718,91 sin IVA.
 
 Según se comenta en la página proporcionada en el ejercicio, el gasto deducible en concepto de amortización, tiene un máximo del 25% sobre el valor sin IVA.
@@ -92,6 +92,6 @@ suscripción activada.
 
 ### Ejercicio 6: Darse de alta en una web que permita hacer pruebas con alguno de los sistemas de gestión de nube anteriores.
 
-A través del correo de confirmación del ejercicio anterior, pordemos acceder al portal de Azure, en el nos encontraremos con los servicios, herramientas, etc, que se proporcionan. En el apartado, Herramientas para desarrolladores tenemos DevTest Labs que es un servicio que ayuda a los desarrolladores y evaluadores a crear rápidamente entornos de Azure al tiempo que se optimizan los recursos y se controlan los costos. 
+A través del correo de confirmación del ejercicio anterior, podemos acceder al portal de Azure, en el nos encontraremos con los servicios, herramientas, etc, que se proporcionan. En el apartado, Herramientas para desarrolladores tenemos DevTest Labs que es un servicio que ayuda a los desarrolladores y evaluadores a crear rápidamente entornos de Azure al tiempo que se optimizan los recursos y se controlan los costos.
 
-
+![curl](https://github.com/franfermi/Ejercicios_IV/blob/master/Tema1/Capturas/crear_devTest.png)
