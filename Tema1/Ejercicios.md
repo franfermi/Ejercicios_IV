@@ -81,11 +81,13 @@ El servicio en el cual me voy a dar de alta sería en Azure, en el podemos acced
 
 En mi caso le he pedido al profesor un código promocional.
 
->> Captura
+![curl](https://github.com/franfermi/Ejercicios_IV/blob/master/Tema1/Capturas/cuenta_azure.png)
+
+![curl](https://github.com/franfermi/Ejercicios_IV/blob/master/Tema1/Capturas/cuenta_azure_confirmada.png)
 
 Una vez activada la cuenta, esperamos unos minutos, tras los cuales nos llegará un correo de confirmación. Ya tenemos nuestra
 suscripción activada.
 
->> Captura
+![curl](https://github.com/franfermi/Ejercicios_IV/blob/master/Tema1/Capturas/cuenta_suscripci%C3%B3n_azure.png)
 
 ### Ejercicio 6: Darse de alta en una web que permita hacer pruebas con alguno de los sistemas de gestión de nube anteriores.
