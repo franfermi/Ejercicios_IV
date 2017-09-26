@@ -77,4 +77,15 @@ He instalado VMware Player ya que Virtualbox no me funciona. Lo descargamos de l
 
 ### Ejercicio 5: Darse de alta en servicios de nube usando ofertas gratuitas o cupones que pueda proporcionar el profesor.
 
+El servicio en el cual me voy a dar de alta sería en Azure, en el podemos acceder mediante nuestra cuenta Microsoft.
+
+En mi caso le he pedido al profesor un código promocional.
+
+>> Captura
+
+Una vez activada la cuenta, esperamos unos minutos, tras los cuales nos llegará un correo de confirmación. Ya tenemos nuestra
+suscripción activada.
+
+>> Captura
+
 ### Ejercicio 6: Darse de alta en una web que permita hacer pruebas con alguno de los sistemas de gestión de nube anteriores.
