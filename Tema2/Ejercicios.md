@@ -25,13 +25,13 @@ Una vez instalado creamos el directorio en el cual queremos ejecutar el entorno 
 >>virtualenv EntornoVirtualIV
 
 
-[!curl](Incluir captura)
+![curl](https://github.com/franfermi/Ejercicios_IV/blob/master/Tema2/Capturas/crear_entorno_virtual.png)
 
 Ya tenemos el directorio virtualizado, para iniciar el servicio usamos:
 
 >>source bin/activate
 
-[!curl](Incluir captura)
+![curl](https://github.com/franfermi/Ejercicios_IV/blob/master/Tema2/Capturas/iniciar_virtualenv.png)
 
 Y por último para desactivar el entorno virtual:
 
