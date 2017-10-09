@@ -79,4 +79,4 @@ Y publicamos nuestro proyecto.
 
 La web funcionando bajo Azure sería la siguiente:
 
-(![curl](https://github.com/franfermi/Ejercicios_IV/blob/master/Tema2/Capturas/publicar_azure.PNG)
+![curl](https://github.com/franfermi/Ejercicios_IV/blob/master/Tema2/Capturas/web_azure.PNG)
