@@ -39,15 +39,15 @@ Y por último para desactivar el entorno virtual:
 
 ### Ejercicio 5: Como ejercicio, algo ligeramente diferente: una web para calificar las empresas en las que hacen prácticas los alumnos. Las acciones serían:  Crear empresa, Listar calificaciones para cada empresa, crear calificación y añadirla (comprobando que la persona no la haya añadido ya), borrar calificación (si se arrepiente o te denuncia la empresa o algo), Hacer un ránking de empresas por    calificación, por ejemplo, Crear un repositorio en GitHub para la librería y crear un pequeño programa que use algunas de sus funcionalidades. Si se quiere hacer con cualquier otra aplicación, también es válido. Se trata de hacer una aplicación simple que se pueda hacer rápidamente con un generador de aplicaciones como los que incluyen diferentes marcos MVC. Si cuesta mucho trabajo, simplemente prepara una aplicación que puedas usar más adelante en el resto de los ejercicios.
 
-En mi caso he creado un sitio web que hace uso de MVC con ASP.NET y MVC alojado en Azure ya que tenemos una cuenta creada del ejercicio del tema anterior.
+En mi caso he creado un sitio web que hace uso de **MVC** con ASP.NET y MVC alojado en **Azure** ya que tenemos una cuenta creada del ejercicio del tema anterior.
 
-Es una aplicación muy sencilla que únicamente muestra información sobre las empresas introducidas. Lo que quería mostrar en este ejercicio es el uso del patrón de diseño MVC.
+Es una aplicación muy sencilla que únicamente muestra información sobre las empresas introducidas. Lo que quería mostrar en este ejercicio es el uso del patrón de diseño **MVC**.
 
 Lo primero que he hecho es crear un pequeño proyecto web con Visual Studio seleccionando una plantilla tipo web llamada: *ASP.NET Web Application*.
 
 ![curl](https://github.com/franfermi/Ejercicios_IV/blob/master/Tema2/Capturas/AppWeb_ASPNET.PNG)
 
-Y que haga uso del patrón de diseño MVC.
+Y que haga uso del patrón de diseño **MVC**.
 
 ![curl](https://github.com/franfermi/Ejercicios_IV/blob/master/Tema2/Capturas/MVC.PNG)
 
@@ -57,9 +57,11 @@ En el árbol de directorios creado para el proyecto podemos observar que tenemos
 
 El contenido del proyecto lo dejaré en el subdirectorio Tema2 de los ejercicios.
 
+![Proyecto](https://github.com/franfermi/Ejercicios_IV/tree/master/Tema2)
+
 Lo primero que he creado ha sido el Modelo, en mi caso es una clase Empresa con varios atributos los cuales se mostrarán en la web.
 
-Tras esto, creamos el Controlador basado en MVC, en el he añadido una función que devuelve la información de una empresa especificada.
+Tras esto, creamos el Controlador basado en **MVC**, en el he añadido una función que devuelve la información de una empresa especificada.
 
 Y por último, la Vista, como voy a mostrar información detallada sobre una empresa, elijo una plantilla de tipo *Details* y la asocio a mi clase Empresa.
 
@@ -67,9 +69,9 @@ La vista en local de la web sería la siguiente:
 
 ![curl](https://github.com/franfermi/Ejercicios_IV/blob/master/Tema2/Capturas/web_localhost.PNG)
 
-Como último paso, y opcional al ejercicio, aprovechando la cuenta de Azure, he publicado la web.
+Como último paso, y opcional al ejercicio, aprovechando la cuenta de **Azure**, he publicado la web.
 
-Para ellos creamos una aplicación web en Azure.
+Para ellos creamos una aplicación web en **Azure**.
 
 ![curl](https://github.com/franfermi/Ejercicios_IV/blob/master/Tema2/Capturas/app_web_azure.PNG)
 
@@ -77,6 +79,6 @@ Y publicamos nuestro proyecto.
 
 ![curl](https://github.com/franfermi/Ejercicios_IV/blob/master/Tema2/Capturas/publicar_azure.PNG)
 
-La web funcionando bajo Azure sería la siguiente:
+La web funcionando bajo **Azure** sería la siguiente:
 
 ![curl](https://github.com/franfermi/Ejercicios_IV/blob/master/Tema2/Capturas/web_azure.PNG)
