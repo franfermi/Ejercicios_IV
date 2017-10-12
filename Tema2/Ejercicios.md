@@ -4,6 +4,23 @@
 
 ### Ejercicio 1: Descargar y ejecutar las pruebas de alguno de los proyectos anteriores, y si sale todo bien, hacer un pull request a este proyecto con tests adicionales, si es que faltan (en el momento que se lea este tema).
 
+Primero realizamos un *fork* del repositorio para compartirlo y segundo, realizamos un clonado del repositorio para tener una copia en local, <code>git clone git@github.com:franfermi/tdd-gdg.git
+
+He añadido el siguiente test:
+
+~~~
+def cuadrado(a):
+    if(not(type(a)is int)):
+        return -1
+    else:
+        return a**2;
+~~~
+
+~~~
+def testCuadrado(self):
+    self.assertEqual(cuadrado(2), 4, "El cuadrado de 2 es 4")
+    self.assertEqual(cuadrado(3), 9, "El cuadrado de 3 es 9")
+~~~
 ### Ejercicio 2: Para la aplicación que se está haciendo, escribir una serie de aserciones y probar que efectivamente no fallan. Añadir tests para una nueva funcionalidad, probar que falla y escribir el código para que no lo haga (vamos, lo que viene siendo TDD).
 
 Ejercicio realizado en el proyecto de la asignatura como parte de los test.
