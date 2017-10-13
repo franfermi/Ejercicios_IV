@@ -52,7 +52,9 @@ class TestMetodos():
         assert raiz(9) == 3
         assert raiz(49) == 7
 
-[Captura pocha]()
+El resultado de su ejecución es el siguiente:
+
+![curl](https://github.com/franfermi/Ejercicios_IV/blob/master/Tema2/Capturas/pocha_python.png)
 
 ### Ejercicio 4: Instalar alguno de los entornos virtuales de node.js (o de cualquier otro lenguaje con el que se esté familiarizado) y, con ellos, instalar la última versión existente, la versión minor más actual de la 4.x y lo mismo para la 0.11 o alguna impar (de desarrollo).
 
@@ -124,3 +126,20 @@ Y publicamos nuestro proyecto.
 La web funcionando bajo **Azure** sería la siguiente:
 
 ![curl](https://github.com/franfermi/Ejercicios_IV/blob/master/Tema2/Capturas/web_azure.PNG)
+
+### Ejercicio 7: Crear una descripción del módulo usando package.json. En caso de que se trate de otro lenguaje, usar el método correspondiente.
+
+La descripción de un módulo se realizaría de la siguiente forma:
+
+<code>def funcionCualquiera():
+
+<code>
+  """
+  En este espacio podemos añadir toda la información relevante a la función, así como la función que tiene y que es lo que devuelve.
+  """
+
+Toda la información aparecerá luego en el directorio **.doc**.
+
+### Ejercicio 9: Haced los dos primeros pasos antes de pasar al tercero.
+
+La resolución de este ejercicio se encuentra en el repositorio del [proyecto](https://github.com/franfermi/Infraestructura-Virtual_IV).
