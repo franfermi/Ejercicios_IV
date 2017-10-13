@@ -27,7 +27,32 @@ Ejercicio realizado en el proyecto de la asignatura como parte de los test.
 
 ### Ejercicio 3: Convertir los tests unitarios anteriores con assert a programas de test y ejecutarlos desde mocha, usando descripciones del test y del grupo de test de forma correcta. Si hasta ahora no has subido el código que has venido realizando a GitHub, es el momento de hacerlo, porque lo vas a necesitar un poco más adelante.
 
+Para convertir los test unitarios y poder ejercutarlos desde Mocha en Python, he instalado la versión **Pocha**, para ello lo he instalado mediante pip, otra forma sería desde su propio [repositorio](https://github.com/rlgomes/pocha).
 
+<code>pip install pocha
+
+Mi clase tests quedaría de la siguiente forma:
+
+<code>from pocha import it
+
+<code>
+class TestMetodos():
+
+    @it('Funcion que devuelve True')
+    def testDevuelveTrue():
+        assert devuelveTrue() == True
+
+    @it('Funcion que devuelve el cuadrado de un numero')
+    def testCuadrado():
+        assert cuadrado(2) == 4
+        assert cuadrado(3) == 9
+
+    @it('Funcion que devuelve la raiz de un numero')
+    def testRaiz():
+        assert raiz(9) == 3
+        assert raiz(49) == 7
+
+[Captura pocha]()
 
 ### Ejercicio 4: Instalar alguno de los entornos virtuales de node.js (o de cualquier otro lenguaje con el que se esté familiarizado) y, con ellos, instalar la última versión existente, la versión minor más actual de la 4.x y lo mismo para la 0.11 o alguna impar (de desarrollo).
 
