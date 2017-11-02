@@ -6,6 +6,12 @@ import os, shelve
 app = Flask(__name__)
 
 @app.route('/')
+def index():
+    return render_template('index.html')
+
+"""
+
+@app.route('/')
 def index_session():
     if not session.get('logged_in'):
         return render_template('index.html')
@@ -112,6 +118,8 @@ def contact():
 @app.errorhandler(404)
 def page_not_found(error):
     return render_template('http_404.html')
+
+"""
 
 if __name__ == "__main__":
     app.secret_key = '123r1ihbqswpci·$%&·qwd'
