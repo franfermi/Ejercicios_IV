@@ -1,0 +1,44 @@
+{% extends "index.html" %}
+			{% block content %}
+				<li class="selected">
+					<a href="/">Home</a>
+				</li>
+				<li>
+					<a href="/contacto">Contact Us</a>
+				</li>
+				<li>
+					<a href="/profile">Profile</a>
+				</li>
+				<li>
+					<a href="/logout">Logout</a>
+				</li>
+			</ul>
+			</div>
+			<div class="body">
+				<div>
+					<div class="figure">
+						<a href="/"><img src="./static/images/cabecera.jpg" alt=""></a>
+					</div>
+					<div>
+						<p></p>
+						<h3>Diseño de Aplicaciones para Internet (2017-2018)</h3>
+						<h3>Modificar perfil</h3>
+						<p>
+							<form action="/actualizarRegistro" method="POST">
+									{%if camposVacios%}
+						      	<p>Debe rellenar los campos</p>
+						      {%endif%}
+									{%if actDatos%}
+						      	<p>Usuario actualizado correctamente</p>
+						      {%endif%}
+	                   <p>Usuario<br/><input type="text" name="username" value="{{ session['username'] }}" disabled></p>
+	                   <p>Contraseña<br/><input type="password" name="password" value=""></p>
+	                   <p>Repite la contraseña<br /><input type="password" name="repeatpassword" value=""></p>
+	                   <p><input type="submit" name="submit" value="Modificar" /></p>
+	            </form>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		{% endblock %}
