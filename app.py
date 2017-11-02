@@ -1,5 +1,5 @@
 from flask import Flask, session, redirect, render_template, request, url_for
-from flask_session import Session
+#from flask_session import Session
 from collections import deque
 import os, shelve
 
