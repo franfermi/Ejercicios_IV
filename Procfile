@@ -1,1 +1,1 @@
-web: cd Tema3 && gunicorn app:app --log-file=-
+web: gunicorn app:app --log-file -
