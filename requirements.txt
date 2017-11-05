@@ -6,3 +6,4 @@ Jinja2==2.9.6
 MarkupSafe==1.0
 Werkzeug==0.12.2
 Flask-Session==0.3.1
+Flask-Shelve==0.1.1
