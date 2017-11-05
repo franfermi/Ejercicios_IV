@@ -1,5 +1,5 @@
 from flask import Flask, session, redirect, render_template, request, url_for
-#from flask_session import Session
+from flask_session import Session
 from collections import deque
 import os, shelve
 
@@ -8,8 +8,6 @@ app = Flask(__name__)
 @app.route('/')
 def index():
     return render_template('index.html')
-
-"""
 
 @app.route('/')
 def index_session():
@@ -119,7 +117,6 @@ def contact():
 def page_not_found(error):
     return render_template('http_404.html')
 
-"""
 
 if __name__ == "__main__":
     app.secret_key = '123r1ihbqswpci·$%&·qwd'
