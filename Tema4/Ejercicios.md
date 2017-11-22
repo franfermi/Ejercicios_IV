@@ -10,11 +10,13 @@ Para instalar *lxc* usamos el siguiente comando:
 
 Un vez instalado comprobamos que se ha instalado correctamente, que está habilitado y que es soportado por el kernel de linux.
 
-![curl](Imagen)
+![curl](https://github.com/franfermi/Ejercicios_IV/blob/master/Tema4/Capturas/lxc_instalado_ejer1.png)
+
+![curl](https://github.com/franfermi/Ejercicios_IV/blob/master/Tema4/Capturas/cgroups_enable_ejer1.png)
 
 Por último, la versión de *lxc* instalada en mi máquina es:
 
-![curl](Imagen)
+![curl](https://github.com/franfermi/Ejercicios_IV/blob/master/Tema4/Capturas/version_lxc_ejer1.png)
 
 ### Ejercicio 2: Crear y ejecutar un contenedor basado en tu distribución y otro basado en otra distribución, tal como Fedora. Nota En general, crear un contenedor basado en tu distribución y otro basado en otra que no sea la tuya.
 
@@ -24,7 +26,7 @@ Creamos un contenedor llamado *una-caja* y en el instalamos Ubuntu.
 
 Una vez que se muestre esto por pantalla, ya tenemos el contenedor listo para ser usado.
 
-![curl](Imagen)
+![curl](https://github.com/franfermi/Ejercicios_IV/blob/master/Tema4/Capturas/contenedor_inst_ejer2.png)
 
 Voy a instalar como segunda distribución, un contenedor de *Gentoo Linux*.
 
@@ -32,13 +34,13 @@ Voy a instalar como segunda distribución, un contenedor de *Gentoo Linux*.
 
 Para iniciar un contenedor usamos la orden:
 
-<code>sudo lxc-start -n contenedor<code>
+<code>sudo lxc-start -n contenedor</code>
 
 Para comprobar que ambos contenedores se han instalado y están iniciados, usamos:
 
 <code>sudo lxc-ls --fancy</code>
 
-![curl](Imagen)
+![curl](https://github.com/franfermi/Ejercicios_IV/blob/master/Tema4/Capturas/contenedores_iniciados_ejer2.png)
 
 ### Ejercicio 3: Instalar docker.
 
@@ -58,7 +60,7 @@ Para comprobar que Docker está instalado, el daemon iniciado y el proceso habil
 
 <code>sudo systemctl status docker</code>
 
-![curl](Imagen)
+![curl](https://github.com/franfermi/Ejercicios_IV/blob/master/Tema4/Capturas/docker_funcionando_ejer3.png)
 
 ### Ejercicio 4:
 
@@ -80,7 +82,7 @@ Por último, para comprobar que las imágenes se han instalado en nuestro equipo
 
 <code>docker images</code>
 
-![curl](Imagen)
+![curl](https://github.com/franfermi/Ejercicios_IV/blob/master/Tema4/Capturas/images_docker_ejer4.png)
 
 ### Ejercicio 5: Crear un usuario propio e instalar alguna aplicación tal como nginx en el contenedor creado de esta forma, usando las órdenes propias del sistema operativo con el que se haya inicializado el contenedor.
 
@@ -90,7 +92,7 @@ Lo primero que haremos es iniciar el contenedor, en mi caso *ubuntu*, que hemos 
 
 Una vez iniciado el contendor, procedemos a crear un usuario junto con su contraseña y a darle permisos de superusuario.
 
-![curl](Imagen)
+![curl](https://github.com/franfermi/Ejercicios_IV/blob/master/Tema4/Capturas/crear_user_ejer5.png)
 
 Ahora ya podemos instalar *nginx* en nuestro contenedor con nuestro usuario creado.
 
@@ -98,7 +100,7 @@ Ahora ya podemos instalar *nginx* en nuestro contenedor con nuestro usuario crea
 
 Si queremos iniciar el nginx y comprobar que se está ejecutando:
 
-![curl](Imagen)
+![curl](https://github.com/franfermi/Ejercicios_IV/blob/master/Tema4/Capturas/nginx_start_ejer5.png)
 
 ### Ejercicio 6: Crear a partir del contenedor anterior una imagen persistente con commit.
 
@@ -110,13 +112,13 @@ Luego, para obtener el ID largo:
 
 <code>sudo docker inspect ID_corto</code>
 
-![curl](Imagen)
+![curl](https://github.com/franfermi/Ejercicios_IV/blob/master/Tema4/Capturas/ID_largo_ejer6.png)
 
 Para finalizar, como ya tenemos el ID largo, podemos hacer el commit persistente.
 
 <code>sudo docker commit ID_largo nombre</code>
 
-![curl](Imagen)
+![curl](https://github.com/franfermi/Ejercicios_IV/blob/master/Tema4/Capturas/commit_ejer6.png)
 
 ### Ejercicio 7: Crear un Dockerfile para el servicio web que se ha venido desarrollando en el proyecto de la asignatura.
 
