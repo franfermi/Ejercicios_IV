@@ -10,7 +10,7 @@ Realizamos la comprobación con:
 
 El resultado al igual que en el tema 1 es el siguiente:
 
-![curl]()
+![curl](https://github.com/franfermi/Ejercicios_IV/blob/master/Tema5/Capturas/kvm-ok.png)
 
 Me dice que KVM no está disponible porque no se encuentra habilitado en la BIOS. No consigo habilitar la opción de virtualización debido al poco acceso que me da la BIOS.
 
@@ -20,7 +20,7 @@ Instalamos los paquetes necesarios para usar KVM.
 
 Para poder administrar máquinas como usuario, hay que añadir este último a algunos grupos.
 
-![curl]()
+![curl](https://github.com/franfermi/Ejercicios_IV/blob/master/Tema5/Capturas/add-user.png)
 
 
 ### Ejercicio 2: Crear varias máquinas virtuales con algún sistema operativo libre tal como Linux o BSD. Si se quieren distribuciones que ocupen poco espacio con el objetivo principalmente de hacer pruebas se puede usar CoreOS (que sirve como soporte para Docker) GALPon Minino, hecha en Galicia para el mundo, Damn Small Linux, SliTaz (que cabe en 35 megas) y ttylinux (basado en línea de órdenes solo).
@@ -31,17 +31,17 @@ Creamos un disco duro en el cual se alojará nuestra distribución.
 
 <code>qemu-img create -f qcow2 slitaz.img 8G</code>
 
-![curl]()
+![curl](https://github.com/franfermi/Ejercicios_IV/blob/master/Tema5/Capturas/disco-duro-slitaz.png)
 
 Y pos último instalamos en la imagen de disco creada anteriormente, la ISO descargada.
 
 <code>qemu-system-x86_64 -hda slitaz.img -cdrom slitaz-4.0.iso</code>
 
-![curl]()
+![curl](https://github.com/franfermi/Ejercicios_IV/blob/master/Tema5/Capturas/instalacion_slitaz_disco.png)
 
 SliTaz corriendo bajo qemu.
 
-![curl]()
+![curl](https://github.com/franfermi/Ejercicios_IV/blob/master/Tema5/Capturas/slitaz_corriendo.png)
 
 ### Ejercicio 4: Crear una máquina virtual Linux con 512 megas de RAM y entorno gráfico LXDE a la que se pueda acceder mediante VNC y ssh.
 
@@ -51,23 +51,23 @@ Creamos el disco en el que se almacenará nuestra máquina virtual.
 
 <code>qemu-img create -f qcow2 trisquel.img 4G</code>
 
-![curl]()
+![curl](https://github.com/franfermi/Ejercicios_IV/blob/master/Tema5/Capturas/disco_trisquel.png)
 
 Ahora instalamos en la imagen creada la ISO de Trisquel descargada con 512 megas de RAM.
 
 <code>qemu-system-x86_64 -hda trisquel.img -cdrom trisquel-mini_7.0_i686.iso -m 512M</code>
 
-![curl]()
+![curl](https://github.com/franfermi/Ejercicios_IV/blob/master/Tema5/Capturas/instalando_Trisquel.png)
 
 Trisquel corriendo bajo qemu con 512 megas de RAM.
 
-![curl]()
+![curl](https://github.com/franfermi/Ejercicios_IV/blob/master/Tema5/Capturas/trisquel_corriendo.png)
 
 Acceso a Trisquel mediante VNC.
 
 <code>qemu-system-x86_64 -hda trisquel.img -cdrom trisquel-mini_7.0_i686.iso -m 512M -vnc :1 &</code>
 
-![curl]()
+![curl](https://github.com/franfermi/Ejercicios_IV/blob/master/Tema5/Capturas/trisquel_vnc.png)
 
 
 ### Ejercicio 5: Crear una máquina virtual ubuntu e instalar en ella alguno de los servicios que estamos usando en el proyecto de la asignatura.
